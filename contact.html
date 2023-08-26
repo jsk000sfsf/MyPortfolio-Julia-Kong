@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Julia's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Intro Header -->
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <span class="navbar-brand" href="#">
+          <img
+            src="https://freesvg.org/img/Anonymous_simple_weather_symbols_5.png"
+            class="d-inline-block align-top logo"
+            alt="cloud-logo"
+          />
+        </span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end py-4"
+          id="navbarTogglerDemo01"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <b>
+                <a class="nav-link" href="index.html">Home</a>
+              </b>
+            </li>
+            <li class="nav-item">
+              <b>
+                <a class="nav-link" href="about_me.html">About Me</a>
+              </b>
+            </li>
+            <li class="nav-item">
+              <b>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </b>
+            </li>
+            <li class="nav-item">
+              <b>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contact.html"
+                  >Contact Me</a
+                >
+              </b>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid background">
+      <div class="overlay my-4">
+        <h1 class="glow"><div class="pt-4 mx-4">Contact Me</div></h1>
+        <hr class="contact-line" />
+
+        <div class="texts">
+          <b>
+            <p class="text">
+              Feel free to send me a message! Though the best way to contact me
+              is to through my email.
+            </p>
+          </b>
+        </div>
+        <div class="texts">
+          <b>
+            <p class="text">
+              Here's my email: <br />
+
+              <a
+                href="mailto:523jkong@frhsd.com"
+                type="button"
+                class="btn btn-outline-primary"
+                >523jkong@frhsd.com</a
+              >
+            </p>
+          </b>
+        </div>
+        <!--testing with table-->
+        <div class="card-color mb-4" id="contact-info">
+          <div class="card-body">
+            <table>
+              <tr>
+                <td>
+                  <label
+                    for="inputFirstName"
+                    class="col-xs-4 col-form-label mr-2"
+                    >First Name:</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text-type"
+                    class="form-control"
+                    id="inputFirstName"
+                  />
+                </td>
+              </tr>
+              <!--last name-->
+              <tr>
+                <td>
+                  <label
+                    for="inputLastName"
+                    class="col-xs-4 col-form-label mr-2"
+                    >Last Name:</label
+                  >
+                </td>
+                <td>
+                  <input
+                    type="text-type"
+                    class="form-control"
+                    id="inputLastName"
+                  />
+                </td>
+              </tr>
+              <!--email-->
+              <tr>
+                <td>
+                  <label for="inputEmail" class="col-xs-4 col-form-label mr-2"
+                    >Email:</label
+                  >
+                </td>
+                <td>
+                  <input type="text-type" class="form-control" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label class="mr-sm-2" for="inlineFormCustomSelect"
+                    >Contact:</label
+                  >
+                </td>
+                <td>
+                  <select
+                    class="custom-select mr-sm-2"
+                    id="inlineFormCustomSelect"
+                  >
+                    <option selected></option>
+                    <option value="1">Team Representative</option>
+                    <option value="2">Katie Kirlin Fund</option>
+                    <option value="3">Webmaster</option>
+                  </select>
+                </td>
+              </tr>
+              <!--message-->
+              <tr>
+                <td>
+                  <label for="inputMessage" class="col-xs-4 col-form-label mr-2"
+                    >Message:</label
+                  >
+                </td>
+                <td>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <button type="button" class="btn btn-lg btn-block">
+            Send!
+          </button>
+          <!--end of overlay-->
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="py-5 bg-light">
+      <div class="container text-center">
+        <small>Copyright &copy; Julia Kong's Website</small>
+      </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
