@@ -1,3 +1,53 @@
+/*w3 schools loader
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 }
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom {
+  from{ bottom:-100px; opacity:0 }
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+*/
+
 body {
   /* background: linear-gradient(rgb(162, 215, 255), #ffc9e3); */
   background-image: url("https://www.publicdomainpictures.net/pictures/320000/velka/pier-bootssteg-nacht-himmel.jpg");
@@ -11,7 +61,7 @@ body {
 
 /* Shooting Stars Citation: https://www.codingsnow.com/2021/01/falling-stars-css-animation-only-using.html */
 .night {
-  position: absolute; /* position: relative; */
+  position: fixed;
   width: 100%;
   height: 100%;
   transform: rotateZ(40deg);
@@ -240,9 +290,9 @@ span.navbar-brand {
 }
 
 .btn-outline-primary {
-  border-color: rgb(144, 206, 247);
-  color: rgb(144, 206, 247);
-  background-color: transparent;
+  border-color: white;
+  color: white;
+  background-color: rgb(0, 170, 255);
 }
 
 .card-title {
